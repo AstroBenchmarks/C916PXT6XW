@@ -170,7 +170,7 @@ metadata = {
     "date": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S%z"),
     "runtime_(seconds)": round(runtime, 1),
     "n_timesteps": int(snapshots.num_iterations),
-    "setup": "missing",  # Update with actual link
+    "setup": "https://github.com/AstroBenchmarks/C916PXT6XW/tree/main/jf1uids/orszag-tang",
 }
 
 # Create directory if it doesn't exist

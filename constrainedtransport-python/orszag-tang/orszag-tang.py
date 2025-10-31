@@ -574,7 +574,7 @@ def main():
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S%z"),
         "runtime_(seconds)": round(runtime, 1),
         "n_timesteps": num_timesteps,
-        "setup": "missing",  # Update with actual link
+        "setup": "https://github.com/AstroBenchmarks/C916PXT6XW/tree/main/constrainedtransport-python/orszag-tang",
     }
 
     # Create directory if it doesn't exist
